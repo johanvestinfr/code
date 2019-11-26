@@ -1,0 +1,182 @@
+.container-de, .container-jp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.footer-link
+{
+color:gray;
+padding:0px;
+}
+
+#container
+{
+width:100%;
+height:100%;
+}
+
+#main-tab
+{
+width:100%;
+height:80%;
+display:flex;
+}
+
+img 
+{
+width:auto;
+height:auto;
+}
+#left-tab
+{
+width:20%;
+height:100%;
+}
+
+#right-tab
+{
+width:90%;
+height:100%;
+}
+
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+ul
+{
+list-style:none;
+}
+
+.template-holder
+{
+width:100%;
+height:100%;
+}
+
+#footer
+{
+width:100%;
+height:20%;
+}
+
+
+.center-div
+{
+  margin: 0 auto;
+  max-width: 700px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+#board-container
+{
+display:flex; 
+align-items:center;
+justify-content:center;
+margin-top:50px;
+}
+
+#board
+{
+width:600px;
+height:600px;
+}
+
+#luffarschack
+{
+  margin: 0 auto;
+  border-radius: 3px;
+  text-align:center;
+  
+}
+.menu-picture
+{
+position:absolute;
+}
+
+#inner-luffarschack
+{
+  margin: 0 auto;
+  height:55%;
+  border-radius: 3px;
+  display:inline-block;
+}
+
+#doc-div
+{
+  margin: 0 auto;
+  height: 100px;
+  border-radius: 3px;
+  text-align:center;
+}
+
+#menu-list
+{
+	display:block;
+}
+
+
+@media screen and (max-width: 1024px) {
+#luffarschack-container
+{
+display:none;
+}
+
+}
+#menu-toggle
+{
+ cursor: pointer;
+}
+
+
+@media screen and (max-width: 400px) {
+.menu-btn
+{
+font-size:4vw!important; 
+}
+#symbol-picker
+{
+height:30px!important;;
+}
+#img-display-container
+{
+margin-top:50%!important;
+}
+}
+@media screen and (max-width: 800px) 
+{
+#img-display-container
+{
+margin-top:20%!important;
+}
+
+}
+
+.menu-btn
+{
+text-decoration:none;
+font-size:2vw;
+color:black;
+}
+.footer-menu-link
+{
+padding:0;
+}
+
+
+
+#symbol-picker
+{
+width:100%;
+color:white;
+background-color:black;
+height:60px;
+font-size:2vw;
+}
